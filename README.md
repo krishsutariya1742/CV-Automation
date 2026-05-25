@@ -11,7 +11,7 @@
 - Mark email as read; store extracted candidate details in Airtable if available.
 - Shortlist candidates with AI score ≥ 80 and send an HR report by email.
 
-![Workflow 1 diagram](assets/workflow1.svg)
+![Workflow 1 diagram](/DAILY%20CV%20PROCESSING.png)
 
 ### Workflow 2 — New Job Opening Match
 - Trigger: New record added to the Job Openings table in Airtable.
@@ -20,7 +20,7 @@
 - Create records for shortlisted and interviewed candidates.
 - Shortlist candidates with AI score ≥ 80 and send an HR report by email.
 
-![Workflow 2 diagram](assets/workflow2.svg)
+![Workflow 2 diagram](/NEW%20JOB%20OPENING%20MATCH.png)
 
 ### Workflow 3 — Send Candidate Report
 - Trigger: Every day at 9:00 AM
@@ -29,4 +29,4 @@
 - Select the top 5 candidates per job.
 - Send a job-wise candidate report to HR (table format).
 
-![Workflow 3 diagram](assets/workflow3.svg)
+![Workflow 3 diagram](/Send%20Candidate%20Report.png)
